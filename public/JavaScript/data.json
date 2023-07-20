@@ -1,0 +1,52 @@
+{
+    "heading":"Welcome To MS Care",
+    "AboutPara1": "We are connected to one of the best neurology hospitals providing unparalleled, holistic care to patients of all ages living with multiple sclerosis. Patients come to us for our clinical excellence, personalized patient care, and innovative clinical research.",
+    "AboutPara2":"Our highly experienced, multidisciplinary team of neuro doctors and experts provides a full spectrum of services tailored to the unique medical and emotional needs of MS patients. These services include advanced diagnostics, novel treatment strategies, and psychosocial, rehabilitative, and supportive care.",
+     "About_Cards":[
+         {
+            "icon":"news-icons uil uil-users-alt", 
+            "heading":"140+",
+             "para":"Doctors"
+         },
+         {
+            "icon":"news-icons uil uil-user-nurse", 
+            "heading":"1040+",
+            "para":"Satisfied Patients"
+        },
+        {
+            "icon":"news-icons uil uil-medical-square-full", 
+            "heading":"500+",
+            "para":"Faculties"
+        }
+     ],
+     "ResearchPara":"MS is a disease still under study. Many more new, researches are being done on MS. News Medicines, schemes and hospitals are being opened around the world to support MS patients in their journey. Below, You will find the recent news , medicines, schemes and developements in the study of MS to better understand your situation and continue on this difficult journey. You can click on the link button to access the complete news and details for the same.",
+     "News_Cards":[
+        {
+            "ImageNews":"1.jpg",
+            "CardHeading":"News",
+            "CardHeadingSpan":"Title",
+            "CardNews":"Random dummy text describing the main points of news article and link attached for users to read more",
+            "icon1":"fa-solid fa-heart",
+            "icon2":"fa-solid fa-eye",
+            "icon3":"fa-solid fa-paperclip"
+        },
+        {
+            "ImageNews":"2.jpg",
+            "CardHeading":"News",
+            "CardHeadingSpan":"Title",
+            "CardNews":"Random dummy text describing the main points of news article and link attached for users to read more",
+            "icon1":"fa-solid fa-heart",
+            "icon2":"fa-solid fa-eye",
+            "icon3":"fa-solid fa-paperclip"
+       },
+       {
+        "ImageNews":"3.jpg",
+        "CardHeading":"News",
+        "CardHeadingSpan":"Title",
+        "CardNews":"Random dummy text describing the main points of news article and link attached for users to read more",
+        "icon1":"fa-solid fa-heart",
+        "icon2":"fa-solid fa-eye",
+        "icon3":"fa-solid fa-paperclip"
+       }
+    ]
+}

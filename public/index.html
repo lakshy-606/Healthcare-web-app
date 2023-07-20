@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>MS CARE</title>
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <style>
+      @keyframes clip1{
+    0%{clip-path: polygon(0% -50%, 50% -50%, -50% 50%, -100% 50% );}
+    100%{clip-path: polygon(150% 50%, 200% 50%, 100% 150%, 50% 150%);}
+  }
+  @keyframes clipa{
+    0%{clip-path: polygon(-5% -55%, 55% -45%, -45% 55%, -95% 55% );}
+    100%{clip-path: polygon(150% 50%, 200% 50%, 100% 150%, 50% 150%);}
+  }
+  @keyframes clip2{
+    0%{clip-path: polygon(50% -50%, 100% -50%, 200% 50%, 150% 50%);}
+    100%{clip-path: polygon(-100% 50%, -50% 50%, 50% 150%, 0% 150%);}
+  }
+  @keyframes clipb{
+    0%{clip-path: polygon(40% -60%, 100% -50%, 190% 40%, 150% 50%);}
+    100%{clip-path: polygon(-100% 50%, -50% 50%, 50% 150%, 0% 150%);}
+  }
+  @keyframes clip3{
+    0%{clip-path: polygon(-100% -150%, -50% -150%, -150% -50%, -200% -50%);}
+    100%{clip-path: polygon(150% 50%, 200% 50%, 100% 150%, 50% 150%);}
+  }
+  @keyframes clip4{
+    0%{clip-path: polygon(150% -150%, 200% -150%, 300% -50%, 250% -50%);}
+    100%{clip-path: polygon(-100% 50%, -50% 50%, 50% 150%, 0% 150%);}
+  }
+  .clip{
+      position: absolute;
+      width:30%;
+      height:75%;
+      background: url("IImages/organisation_img1\ \(1\).jpg") no-repeat center;
+      transform-origin:center;
+      background-size:contain;
+      margin-left: 900px;
+      margin-right: 100px;
+      margin-top: 35px;
+      display:inline-block;
+      float: right;
+  }
+  #clip1 { animation:clip1 4s linear infinite; }
+  #clipa {
+      transform: scale(1.1,1.1);
+      animation:clipa 9s linear infinite;  
+  }
+  #clip2 {
+      transform: scale(1.12,1.12); 
+      animation:clip2 5s linear infinite;  
+  }
+  #clipb {
+      transform: scale(1.14,1.14);
+      animation:clipb 4s linear infinite;  
+  }
+  #clip3 {
+      transform: scale(1.15,1.15);
+      animation:clip3 7s linear infinite;  
+  }
+  #clip4 {
+      transform: scale(1.13,1.13);
+      animation:clip4 6s linear infinite;  
+  }
+  </style>
+  </head>
+  <body>
+      <header>
+          <div class="nav-bar">
+              <a href="" class="logo">MS CARE</a>
+              <div class="navigation">
+                  <div class="nav-items">
+                    <i class="uil uil-times nav-close-btn"></i>
+                    <a href="AboutMS.html"><i class="uil uil-home"></i>About MS</a>
+                    <a href="#"><i class="uil uil-compass"></i>Medicines</a>
+                    <a href="#"><i class="uil uil-info-circle"></i>MS Stories</a>
+                    <a href="#"><i class="uil uil-document-layout-left"></i>Diet</a>
+                    <a href="L1.html"><i class="uil uil-envelope"></i>Login</a>
+                  </div>
+              </div>
+              <i class="uil uil-apps nav-menu-btn"></i>
+          </div>
+      </header>
+
+      <section class="home">
+          <div class="media-icons">
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-twitter"></i></a>
+          </div>
+          <div class="swiper bg-slider">
+              <div class="swiper-slide">
+                    <img class="bg active" src="IImages/pexels-mart-production-7089022.jpg" alt="">
+                    <div class="text-content active">
+                        <h2 class="title">Multiple <span>Screlosis</span></h2>
+                        <p>A disease in which the immune system eats away at the protective covering of nerves.In MS, resulting nerve damage disrupts communication between the brain and the body.
+                            Multiple sclerosis causes many different symptoms, including vision loss, pain, fatigue and impaired coordination. The symptoms, severity and duration can vary from person to person.</p>
+                        <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+                    </div> 
+             </div>
+             <div class="swiper-slide">
+                <img class= "bg" src="IImages/diet.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">Diet</h2>
+                    <p>A disease in which the immune system eats away at the protective covering of nerves.In MS, resulting nerve damage disrupts communication between the brain and the body.
+                        Multiple sclerosis causes many different symptoms, including vision loss, pain, fatigue and impaired coordination. The symptoms, severity and duration can vary from person to person.</p>
+                    <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img class="bg" src="IImages/medicine.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">Medicines</h2>
+                    <p>A disease in which the immune system eats away at the protective covering of nerves.In MS, resulting nerve damage disrupts communication between the brain and the body.
+                        Multiple sclerosis causes many different symptoms, including vision loss, pain, fatigue and impaired coordination. The symptoms, severity and duration can vary from person to person.</p>
+                    <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img class="bg" src="IImages/patients.jpg" alt="">
+                <div class="text-content">
+                    <h2 class="title">MS Stories</span></h2>
+                    <p>A disease in which the immune system eats away at the protective covering of nerves.In MS, resulting nerve damage disrupts communication between the brain and the body.
+                        Multiple sclerosis causes many different symptoms, including vision loss, pain, fatigue and impaired coordination. The symptoms, severity and duration can vary from person to person.</p>
+                    <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+             <div class="slider-navigation">
+                 <div class="nav-btn active" id="1"></div>
+                 <div class="nav-btn" id="2"></div>
+                 <div class="nav-btn" id="3"></div>
+                 <div class="nav-btn" id="4"></div>
+             </div>
+         </div>      
+      </section>
+      <section class="About">
+          <h2 class="heading">About Us</h2> 
+        <div id="background" class="clip"></div>
+        <div id="clip3" class="clip"></div>
+        <div id="clip4" class="clip"></div>
+        <div id="clipa" class="clip"></div>
+        <div id="clip1" class="clip"></div>
+        <div id="clip2" class="clip"></div>
+        <div id="clipb" class="clip"></div>
+    <div class="about-text">
+    <h3></h3>
+    <p id="abt1"></p>
+    <p id="abt2"></p>
+    </div>
+    <div class="info" id="abt-info">
+    </div>
+      </section>
+      <section class="News">
+        <div class="News_content">
+            <h2 class="heading">Research & News</h2> 
+            <p id="News_intro"></p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="image">
+                    <img src="IImages/1.jpg" alt="">
+                    <div class="details">
+                        <h2>News <span>Title</span></h2>
+                        <p>Random dummy text describing the main points of news article and link attached for users to read more</p>
+                    <div class="more">
+                        <div class="icon-links">
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="IImages/2.jpg" alt="">
+                    <div class="details">
+                        <h2>News <span>Title</span></h2>
+                        <p>Random dummy text describing the main points of news article and link attached for users to read more</p>
+                    <div class="more">
+                        <div class="icon-links">
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="IImages/3.jpg" alt="">
+                    <div class="details">
+                        <h2>News <span>Title</span></h2>
+                        <p>Random dummy text describing the main points of news article and link attached for users to read more</p>
+                    <div class="more">
+                        <div class="icon-links">
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="Testimonials">
+          <h2 class="heading">Testimonials</h2>
+          <div class="container">
+                        <ul class="thumbnails">
+              <li>
+                  <a href="#slide1"><img src="IImages/person1.jpg"></a>
+              </li>
+              <li>
+                <a href="#slide2"><img src="IImages/person2.jpg"></a>
+            </li>
+            <li>
+                <a href="#slide3"><img src="IImages/person3.jpg"></a>
+            </li>
+          </ul>
+          <ul class="slides">
+              <li id="slide1"><img src="IImages/person1.jpg" alt=""></li>
+              <li id="slide2"><img src="IImages/person2.jpg" alt=""></li>
+              <li id="slide3"><img src="IImages/person3.jpg" alt=""></li>
+          </ul>
+          <div class="testimonial-content">
+            <div class="test1">
+            <h2><blockquote>I hope it's only the punctuation that's hanging and not the author of this article whom you truly love and adore even if the cupcakes he offered you were stale and tasted like sawdust, right? Right?</blockquote></h2>
+            <h3>Mansi Kumar</h3>
+            <h4>Location: Delhi</h4>
+            </div>
+        </div>
+      </section>
+      <footer class="footer-distributed">
+ 
+        <div class="footer-left">
+        
+        <h3>MS<span>Care</span></h3>
+        
+        <p class="footer-links">
+        <a href="#">Home</a>
+        ·
+        <a href="#">Blog</a>
+        ·
+        <a href="#">Pricing</a>
+        ·
+        <a href="#">About</a>
+        ·
+        <a href="#">Faq</a>
+        ·
+        <a href="#">Contact</a>
+        </p>
+        
+        <p class="footer-company-name">MSCare &copy; 2022</p>
+        </div>
+        
+        <div class="footer-center">
+        
+        <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>21 Revolution Street</span> Delhi, India</p>
+        </div>
+        
+        <div>
+        <i class="fa fa-phone"></i>
+        <p>+1 555 123456</p>
+        </div>
+        
+        <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">contact@mscare.com</a></p>
+        </div>
+        
+        </div>
+        
+        <div class="footer-right">
+        
+        <p class="footer-company-about">
+        <span>About the company</span>
+        MS Care is an organization built to support MS patients in India &amp; around the world.
+        </p>
+        
+        <div class="footer-icons">
+        
+        <a href="#"><i class="uil uil-facebook-f"></i></a>
+        <a href="#"><i class="uil uil-instagram"></i></a>
+        <a href="#"><i class="uil uil-twitter"></i></a>
+        <a href="#"><i class="uil uil-github"></i></a>
+        
+        </div>
+        
+        </div>
+        
+        </footer>
+      <script>
+          const btns = document.querySelectorAll(".nav-btn");
+          const slides = document.querySelectorAll(".bg");
+          const contents = document.querySelectorAll(".text-content");
+          var sliderNav = function(manual){
+              btns.forEach((btn) => {
+                  btn.classList.remove("active");
+              })
+              slides.forEach((slide) => {
+                  slide.classList.remove("active");
+              })
+              contents.forEach((content) => {
+                  content.classList.remove("active");
+              })
+              btns[manual].classList.add("active");
+              slides[manual].classList.add("active");
+              contents[manual].classList.add("active");
+          }
+
+          btns.forEach((btn, i) =>{
+              btn.addEventListener("click", () => {
+                  sliderNav(i);
+              });
+          });
+          class menuCards {
+                constructor(ref) {
+                    this.ref = ref;
+                }
+
+                add(icon,heading,para) {
+                    const div = document.createElement("div");
+                    div.classList.add("icons");
+                    div.innerHTML = `
+                        <i class="${icon}"></i>
+                        <h3>${heading}</h3>
+                        <p>${para}<p>`;
+                    this.ref.appendChild(div);
+                }
+            }
+            fetch("JavaScript/data.json")
+            .then((res) => res.json())
+            .then((jsonData) => {
+            data = jsonData;
+            render();
+        });
+        function render() {
+        const menu = new menuCards(document.querySelector("#abt-info"));
+        document.querySelector("#abt1").innerHTML = data.AboutPara1;
+        document.querySelector("#abt2").innerHTML = data.AboutPara2;
+        document.querySelector(".about-text h3").innerHTML = data.heading;
+        document.querySelector("#News_intro").innerHTML = data.ResearchPara;
+        data.About_Cards.forEach((value) => {
+            menu.add(
+            value.icon,
+            value.heading,
+            value.para
+            );
+        });
+        }
+      </script>
+  </body>
+  </html>
